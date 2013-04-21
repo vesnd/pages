@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+
+<title>css pages</title>
+
+<link rel="stylesheet" href="style.css" />
+<script src="jquery.js"></script>
+<script src="pages.js"></script>
+<script src="script.js"></script>
+</head>
+<body class="custom_enabled">
+
+<div>
+
+	<div class="pages_static_container" style="left: 320px;">
+		<div class="pages_container" style="margin-top: 64px;"></div>
+
+		<div class="pages_list_resizer"></div>
+
+		<div class="pages_options_panel" style="height: 56px; line-height: 56px;">
+
+			<button class="option" name="reopen">Re-open</button><span class="option_separator"></span><button class="option" name="close">Close</button><span class="option_separator"></span><label class="option"><div class="custom_checkbox"><input type="checkbox" checked="checked" name="immediate" /><div><div></div></div></div>Apply changes immediately</label><span class="option_separator"></span><label class="option"><div class="custom_checkbox"><input type="checkbox" checked="checked" name="left_to_right" /><div><div></div></div></div>Left-to-right reading</label><span class="option_separator"></span><label class="option"><div class="custom_checkbox"><input type="checkbox" checked="checked" name="display_two" /><div><div></div></div></div>Two pages at a time</label><span class="option_separator"></span><label class="option"><div class="custom_checkbox"><input type="checkbox" name="separate_double_page" /><div><div></div></div></div>Split double pages</label><span class="option_separator"></span><label class="option"><div class="custom_checkbox"><input type="checkbox" checked="checked" name="display_single_first" /><div><div></div></div></div>Display single page first</label><span class="option_separator"></span><label class="option"><div class="custom_checkbox"><input type="checkbox" name="dark" /><div><div></div></div></div>Dark</label>
+
+		</div>
+
+		<div class="pages_options_panel_resizer" style="top: 56px;"></div>
+	</div>
+
+	<div class="pages_list" style="width: 312px;">
+		<div class="pages_list_label">Contents</div>
+		<div class="pages_list_container"></div>
+	</div>
+
+</div>
+
+<div class="drag_drop_message">
+<div><div>Drop files here</div></div>
+</div>
+
+</body>
+</html>
